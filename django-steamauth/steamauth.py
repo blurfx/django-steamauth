@@ -28,6 +28,8 @@ def RedirectToSteamSignIn(responseURL):
     return response
 
 def GetSteamID64(results):
+    results = dict(results)
+
     validationArgs = {
         'openid.assoc_handle': results['openid.assoc_handle'][0],
         'openid.signed': results['openid.signed'][0],
