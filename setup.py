@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup (
         name    =   'django-steamauth',
-        packages = ['django-steamauth'],
+        packages = ['steamauth'],
         version     = '1.0.0',
         author  = 'mystika',
         author_email    = 'pipsit@gmail.com',
