@@ -1,6 +1,10 @@
 # django-steamauth
 make steam openid authorization easily
 
+### Some information you should know
+- Not tested in Python 2.x
+- Django 1.7 or above
+
 ## Install
 ```
 pip install django-steamauth
