@@ -8,7 +8,7 @@ pip install django-steamauth
 
 
 ## Usage
-You should set ABSOLUTE_URL at settings.py for redirection after login
+You should set ABSOLUTE_URL at settings.py for redirection after login. default is 'localhost'
 ```python
 # settings.py
 
