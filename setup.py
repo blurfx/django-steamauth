@@ -7,7 +7,7 @@ setup (
         author  = 'mystika',
         author_email    = 'pipsit@gmail.com',
         license          = 'MIT License',
-        url         = 'https://github.com/Mystika/django-steamsignin',
+        url         = 'https://github.com/Mystika/django-steamauth',
         description = 'steam login library for django',
         keywords=['django', 'steam', 'valve', 'steamid', 'openid'],
         classifiers=[
