@@ -25,7 +25,7 @@ You can retrive SteamID64 when a login is successful
 ```python
 #views.py
 
-from steamauth import *
+from steamauth import RedirectToSteamSignIn, GetSteamID64
 
 # /login
 def Login(request):
