@@ -39,6 +39,7 @@ def LoginProcess(request):
         return redirect('/login_failed')
     else:
         # login success
+        # do something with variable `steamid`
         return redirect('/')
     
 
