@@ -1,5 +1,6 @@
 from django.http import HttpResponse
-from urllib.parse import urlencode
+from urlparse import urlparse 
+from urllib import urlencode
 from django.conf import settings
 import re, requests
 
