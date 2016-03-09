@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup (
         name    =   'django-steamauth',
         packages = ['steamauth'],
-        version     = '1.0.0',
+        version     = '1.1.0',
         author  = 'mystika',
         author_email    = 'pipsit@gmail.com',
         license          = 'MIT License',
@@ -15,6 +15,7 @@ setup (
             'Intended Audience :: Developers',
             'Programming Language :: Python',
             'Programming Language :: Python :: 3',
+            'Programming Language :: Python :: 2',
             'Operating System :: OS Independent',
             'Intended Audience :: Developers',
             'Framework :: Django',

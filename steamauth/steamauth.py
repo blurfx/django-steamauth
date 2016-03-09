@@ -1,6 +1,9 @@
 from django.http import HttpResponse
-from urllib.parse import urlencode
 from django.conf import settings
+try:
+    from urllib.parse import urlencode
+except ImportError:
+    from urllib import urlencode
 import re, requests
 
 ABSOLUTE_URL = getattr(settings, 'ABSOLUTE_URL', 'localhost')
