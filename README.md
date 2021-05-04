@@ -61,3 +61,4 @@ def login_callback(request):
 - Remove deprecated interfaces: `RedirectToSteamSignIn`, `GetSteamID64`
 - Change the default value of `ABSOLUTE_URL` from `localhost` to `localhost:8000`
 - Fix an issue `use_ssl` parameter of `auth` didn't work ([#6](https://github.com/blurfx/django-steamauth/issues/6))
+- Set default value of `use_ssl` to `True` 
