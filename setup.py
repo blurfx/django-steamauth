@@ -10,7 +10,7 @@ def long_description():
 setup(
     name='django-steamauth',
     packages=find_packages('steamauth'),
-    version='1.1.2',
+    version='1.1.2.1',
     author='blurfx',
     author_email='iam@xo.dev',
     license='MIT License',
