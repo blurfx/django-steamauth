@@ -9,8 +9,8 @@ def long_description():
 
 setup(
     name='django-steamauth',
-    packages=find_packages('steamauth'),
-    version='1.1.2.1',
+    packages=find_packages(),
+    version='1.1.2.3',
     author='blurfx',
     author_email='iam@xo.dev',
     license='MIT License',
@@ -21,7 +21,8 @@ setup(
     keywords=['django', 'steam', 'valve', 'steamid', 'openid'],
     python_requires='>=3',
     install_requires=[
-        'django'
+        'django',
+        'requests',
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
